@@ -1,0 +1,215 @@
+html {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+}
+
+
+#logo{
+    height: 25px;
+    margin: 10px 20px;    
+}
+
+
+#header{
+    top: 0;
+    width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #1b1b32;
+  margin-bottom: 40px;
+
+  
+
+
+}
+#nav-bar>a{
+    margin: 0 25px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+#nav-bar>a:hover{
+    text-shadow: 0px 0px 20px antiquewhite;
+
+}
+
+
+main {
+    padding-top: 50px;
+  }
+
+form{
+    border-radius: 20px;
+    padding: 1em 25px;
+    font-family: Georgia, serif;
+    border: 2px solid;
+    width: 60vw;
+    max-width: 400px;
+    min-width: 250px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction:column;
+}
+
+form>h1{
+    margin:5px auto;
+    width: 100%;
+    max-width: 380px;
+    background-color: #1b1b32;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+form>input[type="submit"]{
+    position: relative;
+  display: inline-block;
+  margin: 20px auto 9px auto;
+  padding: 11px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
+  background: transparent;
+  width: 150px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #1b1b32;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 0 #1b1b32;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #1b1b32;
+  }
+
+  input[type="submit"]:active {
+    transform: scale(0.9);
+  }
+
+form>input[type="email"]{
+    height: 9px;
+    margin: 16px auto 0px auto;
+    padding: 10px;
+    
+}
+
+#About_us{
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.lists {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+
+#Demo{
+    margin: 60px auto;
+    width: 70%;
+    max-width: 600px;
+    
+}
+
+#Demo>div{
+margin: auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+}
+
+#Pricing{
+    display: grid;
+    grid-auto-flow: column;
+    margin: auto;
+  width: 60%;
+    
+    gap: 2em;
+    max-width: 1000px;
+    
+}
+
+#Pricing>div{
+    border: 1px solid #1b1b32;
+    border-radius: 10px;
+    max-width: 280px;
+    min-width: 200px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#Pricing>div:hover{
+  border: 2px solid #1b1b32;
+}
+
+#Pricing>div>header{
+    background-color: #1b1b32;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    #Pricing{
+        grid-auto-flow: row;
+    }
+    #Demo{
+        margin: 60px auto;
+        width: 100%;
+        
+    }
+    
+}
+
+input[type="button"]{
+    position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #1b1b32;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #1b1b32;
+}
+
+input[type="button"]:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #1b1b32;
+  }
+
+  input[type="button"]:active {
+    transform: scale(0.9);
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+justify-content: center;
+padding: 5px;
+    background-color: lightgray;
+  }
+Product Landing Page
